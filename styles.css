@@ -1,3 +1,24 @@
 body{
-  background: red;
+  background: orchid;
+  margin: 40px;
+}
+
+img {
+  padding:5px;
+  border: 6px dotted white;
+}
+
+footer {
+  margin: auto;
+  width: 50%;
+}
+
+.thank-you {
+  background-image: url("balloons.jpg");
+  background-repeat: no-repeat;
+  background-size: 700px 200px;
+}
+
+.newsletter {
+  font-family: courier;
 }
