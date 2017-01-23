@@ -16,9 +16,22 @@ footer {
 .thank-you {
   background-image: url("balloons.jpg");
   background-repeat: no-repeat;
-  background-size: 700px 200px;
+  background-size: 800px 200px;
+  font-family: Georgia;
+  margin: auto;
+  padding: 50px;
+  color: blue;
 }
 
 .newsletter {
   font-family: courier;
+}
+
+a:visited {
+    color: white;
+}
+
+#main {
+  text-shadow: 2px 2px white;
+  font-size: 40px;
 }
