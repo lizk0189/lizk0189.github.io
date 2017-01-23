@@ -1,3 +1,44 @@
 body{
-  background: red;
+  background: orchid;
+  margin: 40px;
+}
+
+img {
+  padding:5px;
+  border: 6px dotted white;
+  max-width: 80%;
+}
+
+footer {
+  margin: auto;
+  width: 50%;
+}
+
+.thank-you {
+  background-image: url("balloons.jpg");
+  background-repeat: no-repeat;
+  background-size: 800px 200px;
+  font-family: Georgia;
+  margin: auto;
+  padding: 50px;
+  color: blue;
+}
+
+.newsletter {
+  font-family: courier;
+}
+
+a:visited {
+    color: white;
+}
+
+#main {
+  text-shadow: 2px 2px white;
+  font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+ #main {
+    font-size: 20pt;
+  }
 }
